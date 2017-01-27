@@ -1,0 +1,26 @@
+.main{width: 980px; margin:0 auto;}
+.table{width: 100%}
+.table tr td,.table tr th{height: 40px; line-height: 40px; text-align: center; color: #000}
+.table tr td{padding:15px 0;}
+.table tr th{ background-color: #666; color: #fff; }
+
+.table tr th:first-child{width: 5%}
+.table tr th:nth-child(2){width: 35%}
+.table .item_img p span{margin:0 5px;}
+.table tr td input[type='checkbox']{width: 20px; height: 20px;}
+
+
+.totalCount{color: red}
+.menu{overflow: hidden;}
+.menu .menuLeft{float: left;}
+.menu .menuRight{float: right;}
+.menu .menuRight button{width: 100px; text-align: center; background-color: red; color:#fff;}
+
+.uncheck{background: url(../img/uncheck.png) no-repeat; width: 30px; height: 30px; background-size: cover; vertical-align: middle;}
+
+.uncheck.checked{background: url(../img/checked.png) no-repeat; background-size: cover;}
+
+
+
+.test ul li{display: inline-block; width: 100px; height: 50px; border: 1px solid #ccc; text-align:center; line-height: 50px;}
+.test ul li.active{background: red; color: #fff;}
